@@ -1,0 +1,16 @@
+{
+  "base_url": "http://localhost:8787",
+  "model": "your-model-id",
+  "api_key_env": "JITRL_API_KEY",
+  "api_key_fallback": "",
+  "data_dir": "~/.codex/jitrl-data",
+  "max_tokens": 64000,
+  "timeout": 45,
+  "beta": 1.0,
+  "gamma": 0.9,
+  "k": 10,
+  "threshold": 0.2,
+  "exploration_rate": 0.05,
+  "exploration_bonus": 1.0,
+  "epsilon": 1e-8
+}

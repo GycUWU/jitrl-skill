@@ -1,0 +1,4 @@
+interface:
+  display_name: "JitRL 经验决策"
+  short_description: "使用 Gemini 与历史回报修正动作概率，记录真实结果并同步谷歌云经验"
+  default_prompt: "使用 $jitrl 完成任务，检索历史经验、修正动作概率并记录真实执行结果。"
